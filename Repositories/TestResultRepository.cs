@@ -15,6 +15,7 @@ namespace TestResultService.Repositories
             new TestResultTab{ TestId=3,UserId=103,UserName="Anna",Result="Positive" },
             new TestResultTab{ TestId=4,UserId=104,UserName="Ariel",Result="Negative" },
             new TestResultTab{ TestId=5,UserId=105,UserName="Aurora",Result="Positive" },
+            new TestResultTab{ TestId=10,UserId=110,UserName="Jasmine",Result="Positive" },
         };
         
         public List<TestResultTab> GetAll()
