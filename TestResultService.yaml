@@ -1,4 +1,3 @@
-﻿  
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -15,7 +14,7 @@ spec:
     spec:
       containers:
       - name: dockersamplerepos
-        image: samplec.azurecr.io/dockersamplerepos:latest
+        image: samplecr.azurecr.io/dockersamplerepos:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
@@ -25,7 +24,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: dockersampleconfig
+  name: testresultservice
 spec:
   type: LoadBalancer
   ports:
